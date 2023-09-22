@@ -10,6 +10,8 @@
 
   <properties>
     <spring.version>6.0.12</spring.version>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -54,6 +56,15 @@
       <artifactId>thymeleaf-spring6</artifactId>
       <version>3.1.2.RELEASE</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>6.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+
 
 
   </dependencies>
