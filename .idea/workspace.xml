@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="first request">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
+    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="simple calculator">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +186,7 @@
       <workItem from="1695326376655" duration="5703000" />
       <workItem from="1695398867791" duration="2331000" />
       <workItem from="1695411785259" duration="544000" />
-      <workItem from="1695448574989" duration="5063000" />
+      <workItem from="1695448574989" duration="8829000" />
     </task>
     <task id="LOCAL-00001" summary="start maven">
       <created>1695323901872</created>
@@ -242,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695455665460</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="simple calculator">
+      <created>1695462031817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695462031817</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +287,7 @@
     <MESSAGE value="without xml" />
     <MESSAGE value="controllers first and second" />
     <MESSAGE value="first request" />
-    <option name="LAST_COMMIT_MESSAGE" value="first request" />
+    <MESSAGE value="simple calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple calculator" />
   </component>
 </project>
