@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Hello</title>
 </head>
 <body>
 
-<p>Hello!</p>
+<p th:text=${message}/>
 
 <a href="/goodbye">Say goodbye</a> or <a href="/exit">exit</a>
 or <a href="/goodbye?name=Pavel&surname=Petrov">Request with parameters</a>
