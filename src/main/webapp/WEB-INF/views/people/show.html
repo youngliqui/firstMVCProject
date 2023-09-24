@@ -9,5 +9,9 @@
   <p th:text="${person.getName()}">VALUE</p>
   <p th:text="${person.getId()}">VALUE</p>
 
+  <form th:method="GET" th:action="@{/people}">
+      <input type="submit" value="back">
+  </form>
+
 </body>
 </html>
