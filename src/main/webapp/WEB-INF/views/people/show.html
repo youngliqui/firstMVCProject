@@ -9,8 +9,18 @@
   <p th:text="${person.getName()}">VALUE</p>
   <p th:text="${person.getId()}">VALUE</p>
 
+  <hr/>
+
+  <form th:action="@{/people/{id}/edit(id=${person.getId()})}">
+      <button>edit</button>
+  </form>
+
+  <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
+      <button>delete</button>
+  </form>
+
   <form th:method="GET" th:action="@{/people}">
-      <input type="submit" value="back">
+      <button>back</button>
   </form>
 
 </body>
