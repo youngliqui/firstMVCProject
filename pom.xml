@@ -79,6 +79,29 @@
       <version>42.6.0</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>6.0.11</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alexkasko.springjdbc</groupId>
+      <artifactId>springjdbc-constructor-mapper</artifactId>
+      <version>1.0.1</version>
+      <scope>import</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alexkasko.springjdbc</groupId>
+      <artifactId>springjdbc-constructor-mapper</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+
 
   </dependencies>
   <build>

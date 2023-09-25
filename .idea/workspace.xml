@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="db implementation">
+    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="prepared statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -185,7 +187,7 @@
       <workItem from="1695326376655" duration="5703000" />
       <workItem from="1695398867791" duration="2331000" />
       <workItem from="1695411785259" duration="544000" />
-      <workItem from="1695448574989" duration="30542000" />
+      <workItem from="1695448574989" duration="32687000" />
     </task>
     <task id="LOCAL-00001" summary="start maven">
       <created>1695323901872</created>
@@ -299,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695658489480</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="prepared statement">
+      <created>1695670145136</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695670145136</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +351,7 @@
     <MESSAGE value="new person fields" />
     <MESSAGE value="add validation" />
     <MESSAGE value="db implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="db implementation" />
+    <MESSAGE value="prepared statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepared statement" />
   </component>
 </project>
