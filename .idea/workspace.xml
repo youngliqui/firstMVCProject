@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="add batch update">
+    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="id autoincrement">
       <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +187,7 @@
       <workItem from="1695411785259" duration="544000" />
       <workItem from="1695448574989" duration="34152000" />
       <workItem from="1695733801641" duration="1737000" />
-      <workItem from="1695735552587" duration="4885000" />
+      <workItem from="1695735552587" duration="6980000" />
     </task>
     <task id="LOCAL-00001" summary="start maven">
       <created>1695323901872</created>
@@ -337,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695739562663</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="id autoincrement">
+      <created>1695841171559</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695841171559</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +390,8 @@
     <MESSAGE value="jdbc template" />
     <MESSAGE value="add configure file" />
     <MESSAGE value="add batch update" />
-    <option name="LAST_COMMIT_MESSAGE" value="add batch update" />
+    <MESSAGE value="id autoincrement" />
+    <option name="LAST_COMMIT_MESSAGE" value="id autoincrement" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
