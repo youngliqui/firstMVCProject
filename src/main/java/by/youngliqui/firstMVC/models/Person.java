@@ -16,6 +16,9 @@ public class Person {
     @Email(message = "Email should be valid")
     private String email;
 
+    // Страна, Город, Индекс (6 цифр)
+    private String address;
+
     public Person() {
     }
 
