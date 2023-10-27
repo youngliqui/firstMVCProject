@@ -1,6 +1,7 @@
 package by.youngliqui.firstMVC.dao;
 
 import by.youngliqui.firstMVC.models.Person;
+import jakarta.persistence.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import javax.swing.text.html.Option;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -36,28 +36,24 @@ public class PersonDAO {
     public List<Person> index() {
         Session session = sessionFactory.getCurrentSession();
 
-        List<Person> people = session.createQuery("select p from Person p", Person.class)
+        return session.createQuery("select p from Person p", Person.class)
                 .getResultList();
-
-        return people;
     }
 
     @Transactional(readOnly = true)
     public Person show(int id) {
         Session session = sessionFactory.getCurrentSession();
 
-        Person person = session.get(Person.class, id);
-
-        return person;
+        return session.get(Person.class, id);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional
     public Optional<Person> show(String email) {
         Session session = sessionFactory.getCurrentSession();
 
-        Optional<Person> person = session.createQuery("FROM Person where email = " + email, Person.class)
-                .uniqueResultOptional();
-
+        Optional<Person> person = session.createQuery("SELECT p FROM Person p WHERE p.email=:email", Person.class)
+                .setParameter("email", email)
+                .stream().findAny();
         return person;
     }
 

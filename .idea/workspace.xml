@@ -9,14 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="add address validation">
+    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="hibernate">
       <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +198,7 @@
       <workItem from="1696678182292" duration="94000" />
       <workItem from="1696964559123" duration="9000" />
       <workItem from="1698216819089" duration="272000" />
-      <workItem from="1698341108722" duration="7192000" />
+      <workItem from="1698341108722" duration="10834000" />
     </task>
     <task id="LOCAL-00001" summary="start maven">
       <created>1695323901872</created>
@@ -391,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696508879173</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="hibernate">
+      <created>1698349551142</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698349551142</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +449,8 @@
     <MESSAGE value="add personValidator" />
     <MESSAGE value="add person address" />
     <MESSAGE value="add address validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add address validation" />
+    <MESSAGE value="hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="hibernate" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
