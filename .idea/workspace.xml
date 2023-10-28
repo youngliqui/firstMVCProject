@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="Spring Data JPA">
+    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="Hibernate Date">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Mood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/services/PeopleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -205,7 +206,7 @@
       <workItem from="1698488564264" duration="22000" />
       <workItem from="1698488722565" duration="4000" />
       <workItem from="1698494183233" duration="9000" />
-      <workItem from="1698494240162" duration="4470000" />
+      <workItem from="1698494240162" duration="7731000" />
     </task>
     <task id="LOCAL-00001" summary="start maven">
       <created>1695323901872</created>
@@ -424,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698506249765</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Hibernate Date">
+      <created>1698509619699</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1698509619699</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start project" />
     <MESSAGE value="hello world" />
     <MESSAGE value="without xml" />
     <MESSAGE value="controllers first and second" />
@@ -479,7 +486,8 @@
     <MESSAGE value="hibernate" />
     <MESSAGE value="hibernate update" />
     <MESSAGE value="Spring Data JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Data JPA" />
+    <MESSAGE value="Hibernate Date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate Date" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -1,5 +1,6 @@
 package by.youngliqui.firstMVC.controllers;
 
+import by.youngliqui.firstMVC.dao.PersonDAO;
 import by.youngliqui.firstMVC.models.Person;
 import by.youngliqui.firstMVC.services.ItemService;
 import by.youngliqui.firstMVC.services.PeopleService;
@@ -20,11 +21,14 @@ public class PeopleController {
 
     private final ItemService itemService;
 
+    private final PersonDAO personDAO;
+
     @Autowired
-    public PeopleController(PeopleService peopleService, PersonValidator personValidator, ItemService itemService) {
+    public PeopleController(PeopleService peopleService, PersonValidator personValidator, ItemService itemService, PersonDAO personDAO) {
         this.peopleService = peopleService;
         this.personValidator = personValidator;
         this.itemService = itemService;
+        this.personDAO = personDAO;
     }
 
 

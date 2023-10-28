@@ -1,5 +1,6 @@
 package by.youngliqui.firstMVC.services;
 
+import by.youngliqui.firstMVC.models.Mood;
 import by.youngliqui.firstMVC.models.Person;
 import by.youngliqui.firstMVC.repositories.PeopleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,7 @@ public class PeopleService {
 
     @Transactional
     public void save(Person person) {
+        person.setMood(Mood.CALM);
         person.setCreatedAt(new Date());
 
         peopleRepository.save(person);
