@@ -1,7 +1,6 @@
 package by.youngliqui.firstMVC.dao;
 
-import by.youngliqui.firstMVC.models.Person;
-import jakarta.persistence.Query;
+import by.youngliqui.firstMVC.models.Person;;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

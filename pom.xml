@@ -9,7 +9,7 @@
   <url>https://maven.apache.org</url>
 
   <properties>
-    <spring.version>6.0.12</spring.version>
+    <spring.version>6.0.13</spring.version>
     <maven.compiler.source>18</maven.compiler.source>
     <maven.compiler.target>18</maven.compiler.target>
   </properties>
@@ -94,6 +94,14 @@
       <artifactId>postgresql</artifactId>
       <version>42.6.0</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-jpa</artifactId>
+      <version>3.1.5</version>
+    </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
     <dependency>
