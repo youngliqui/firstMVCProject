@@ -9,16 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="hibernate update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/repositories/PeopleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/services/PeopleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+    <list default="true" id="950c183f-c0dd-483d-a53f-d352a2ae9820" name="Changes" comment="Spring Data JPA">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/repositories/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/services/ItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/repositories/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/repositories/PeopleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/youngliqui/firstMVC/services/PeopleService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,11 @@
       <workItem from="1696964559123" duration="9000" />
       <workItem from="1698216819089" duration="272000" />
       <workItem from="1698341108722" duration="11073000" />
-      <workItem from="1698479528401" duration="3697000" />
+      <workItem from="1698479528401" duration="4347000" />
+      <workItem from="1698488564264" duration="22000" />
+      <workItem from="1698488722565" duration="4000" />
+      <workItem from="1698494183233" duration="9000" />
+      <workItem from="1698494240162" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="start maven">
       <created>1695323901872</created>
@@ -409,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698431345623</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Spring Data JPA">
+      <created>1698483249297</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698483249297</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start maven" />
     <MESSAGE value="start project" />
     <MESSAGE value="hello world" />
     <MESSAGE value="without xml" />
@@ -464,7 +473,8 @@
     <MESSAGE value="add address validation" />
     <MESSAGE value="hibernate" />
     <MESSAGE value="hibernate update" />
-    <option name="LAST_COMMIT_MESSAGE" value="hibernate update" />
+    <MESSAGE value="Spring Data JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Data JPA" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

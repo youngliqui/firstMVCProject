@@ -1,6 +1,7 @@
 package by.youngliqui.firstMVC.controllers;
 
 import by.youngliqui.firstMVC.models.Person;
+import by.youngliqui.firstMVC.services.ItemService;
 import by.youngliqui.firstMVC.services.PeopleService;
 import by.youngliqui.firstMVC.util.PersonValidator;
 import jakarta.validation.Valid;
@@ -17,15 +18,26 @@ public class PeopleController {
     private final PeopleService peopleService;
     private final PersonValidator personValidator;
 
+    private final ItemService itemService;
+
     @Autowired
-    public PeopleController(PeopleService peopleService, PersonValidator personValidator) {
+    public PeopleController(PeopleService peopleService, PersonValidator personValidator, ItemService itemService) {
         this.peopleService = peopleService;
         this.personValidator = personValidator;
+        this.itemService = itemService;
     }
+
+
 
     @GetMapping()
     public String index(Model model) {
         model.addAttribute("people", peopleService.findAll());
+
+        itemService.findByItemName("Airpods");
+        itemService.findByOwner(peopleService.findAll().get(0));
+
+        peopleService.test();
+
         return "people/index";
     }
 

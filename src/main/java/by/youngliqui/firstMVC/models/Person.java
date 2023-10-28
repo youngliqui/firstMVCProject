@@ -3,6 +3,8 @@ package by.youngliqui.firstMVC.models;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "Person")
 public class Person {
@@ -31,6 +33,9 @@ public class Person {
     @Pattern(regexp = "[A-Z]\\w+, [A-Z]\\w+, \\d{6}", message = "Your address should be in this format: Country, City, Postal Code (6 digits)")
     private String address;
 
+    @OneToMany(mappedBy = "owner")
+    private List<Item> items;
+
     public Person() {
     }
 
@@ -39,6 +44,22 @@ public class Person {
         this.age = age;
         this.email = email;
         this.address = address;
+    }
+
+    public Person(String name, int age, String email, String address, List<Item> items) {
+        this.name = name;
+        this.age = age;
+        this.email = email;
+        this.address = address;
+        this.items = items;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
     }
 
     public String getAddress() {
